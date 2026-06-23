@@ -24,7 +24,7 @@ export default function TechStack() {
         <p className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">{ts.badge}</p>
         <div className="grid md:grid-cols-2 gap-12 items-end">
           <h1
-            className="text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.05]"
+            className="text-5xl tracking-tight leading-[1.05]"
             style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "-0.03em" }}
           >
             {ts.h1}
@@ -76,12 +76,6 @@ export default function TechStack() {
           style={{ backgroundColor: "#f0fdf4", border: "1px solid #bbf7d0" }}
         >
           <div className="max-w-lg">
-            <h3
-              className="text-lg font-bold mb-2 tracking-tight"
-              style={{ fontFamily: "'Outfit', sans-serif" }}
-            >
-              {ts.noteLabel}
-            </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">{ts.note}</p>
           </div>
           <Link

@@ -13,7 +13,7 @@ export default function About() {
         <p className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">{a.badge}</p>
         <div className="grid md:grid-cols-2 gap-12 items-end">
           <h1
-            className="text-5xl font-extrabold tracking-tight leading-[1.05]"
+            className="text-4xl tracking-tight leading-[1.05]"
             style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "-0.03em" }}
           >
             {a.h1}
@@ -44,7 +44,7 @@ export default function About() {
 
       {/* ── Why ── */}
       <section className="py-16 px-6 bg-foreground text-primary-foreground">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-3">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-3 place-items-center">
           {a.why.map((item) => (
             <div key={item} className="flex items-center gap-3">
               <CheckCircle size={14} style={{ color: "#22c55e" }} />

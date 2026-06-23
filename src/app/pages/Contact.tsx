@@ -21,7 +21,7 @@ export default function Contact() {
         <p className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">{c.badge}</p>
         <div className="grid md:grid-cols-2 gap-12 items-end">
           <h1
-            className="text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.05]"
+            className="text-5xl md:text-6xl tracking-tight leading-[1.05]"
             style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "-0.03em" }}
           >
             {c.h1}

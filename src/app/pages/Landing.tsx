@@ -64,7 +64,7 @@ export default function Landing() {
                 {l.cta1} <ArrowRight size={15} />
               </Link>
               <Link
-                to="/tech-stack"
+                to="/process"
                 className="flex items-center gap-2 text-sm font-medium px-6 py-3 rounded-sm border border-border hover:border-foreground/30 transition-colors"
               >
                 {l.cta2}
