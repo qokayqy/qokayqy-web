@@ -170,7 +170,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://facebook.com/qokayqy"
+                  href="https://www.facebook.com/profile.php?id=61591434085679"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 group"
